@@ -17,11 +17,13 @@ Dribbble Scraper → Style Cards → Prompt Generator → Quality Reviewer → F
 
 ## Installation
 
+For AI agents (Codex, Claude Code, etc.):
+
 ```bash
 npx skills add Abdullah4AI/visual-prompt-engine
 ```
 
-If you have [OpenClaw](https://openclaw.ai):
+For [ClawHub](https://clawhub.com):
 
 ```bash
 clawhub install visual-prompt-engine
