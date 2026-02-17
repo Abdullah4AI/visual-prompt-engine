@@ -17,36 +17,14 @@ Dribbble Scraper → Style Cards → Prompt Generator → Quality Reviewer → F
 
 ## Installation
 
-### ClawHub (OpenClaw)
+```bash
+npx skills add Abdullah4AI/visual-prompt-engine
+```
+
+If you have [OpenClaw](https://openclaw.ai):
 
 ```bash
 clawhub install visual-prompt-engine
-```
-
-### OpenClaw (Manual)
-
-Copy the skill folder to your OpenClaw skills directory:
-
-```bash
-cp -r visual-prompt-engine ~/.openclaw/skills/
-```
-
-### Codex CLI
-
-Copy the skill folder to your Codex skills directory:
-
-```bash
-cp -r visual-prompt-engine ~/.codex/skills/
-```
-
-### Other AI Agent Tools
-
-This skill follows the standard AgentSkill format (SKILL.md + scripts + references). Copy the folder to wherever your agent tool loads skills from. The `SKILL.md` frontmatter provides the trigger description; the body provides the workflow instructions.
-
-### GitHub
-
-```bash
-git clone https://github.com/Abdullah4AI/visual-prompt-engine.git
 ```
 
 ## Quick Start
